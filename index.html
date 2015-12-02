@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<script charset="utf-8">
+</script>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Code Fellows Assignment Day 1</title>
+  </head>
+  <body>
+    <h1>Guessing Game Assignment Day 1</h1>
+      <p>This assignment was created to demonstrate the use of the command line and basic JavaScript.
+
+      <h3>Using Bash/Command Line</h3>
+      <p>I was able to create a directory of projects. Within projects directory I created a folder called '201d2'. Within that directory I thought I crated a file called "assignment 1". Which now contains this very file intitled 'index.html'. I used the command atom "index.html" to open the project in atom. Fairily different from Fish.</p>
+      <h3>Time to Quiz-Splain'</h3>
+      <p>Essentially, this quiz followed the format that I drew up in my design. It uses userName to store players names. It then uses prompt and alert to pop up questions and give feedback. It also keeps track of how many questions were answered correctly. When a correct answer is given the score total increases or decreases accordingly.</p>
+
+      <h3>About Me: Trish Griego</h3>
+      <p>I'm originally from Phoenix, Arizona but I've called Seattle home for 5 years now. Prior to persuing Coding. I worked as a Social Worker in West Seattle and South Seattle. I was tenacious and known for my abilitiy to preservere where others had not. I plan on bringing that same determination and gumption with me to programming.  I have many passion projects inclusive of the following website:
+      </p>
+      <a href="www.standwithduwamish.com"><h3>www.standwithduwamish.com</h3></a>
+
+  </body>
+  <script>
+    var score = 0;
+    var userName = prompt("What is your name?");
+    alert("Greetings " + userName + "!");
+
+    var qOne = prompt("Are you a dog person? Yes or No");
+      if (qOne == "yes") {
+        score += 1;
+        alert("you got that right! Cats are weird.");
+      } else {
+        score -= 1;
+        alert("You are wrong!")
+      };
+
+    var qTwo = prompt("Do you consider yourself a Seattlite? Yes or No");
+    alert("Intersting answer, "+ userName);
+    if (qTwo === "yes") {
+      score += 1;
+      alert("Indeed, I love the Emmerald City and consider it my home.");
+    } else {
+      score -= 1;
+      alert("Aw, you are incorrect. I grew up in Arizona not Seattle.");
+    }
+
+    var qThree = prompt("Can you name all the Women that have ever been on the Supreme Court?");
+    if (qThree === "yes") {
+      score += 1;
+      alert("Your damn right I can! As a former Political Science major and NOTORIOUS RBG supporter. I know whats up.");
+    } else {
+      score -= 1;
+      alert("You are gravely mistaken! Its easy to remember as there are only 5 of them since the Courts inception");
+};
+
+alert("Thanks for playing " + userName + ", " + "you answered " + score +
+" questions out of three correctly.");
+
+  </script>
+</html>
