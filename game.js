@@ -1,5 +1,3 @@
-<script src="game.js" type="text/javascript"></script>
-<script>
   var score = 0;
   var userName = prompt("What is your name?");
   alert("Greetings " + userName + "!");
@@ -42,5 +40,3 @@
 
 alert("Thanks for playing " + userName + ", " + "you answered " + score +
 " questions out of 4 correctly.");
-
-</script>
