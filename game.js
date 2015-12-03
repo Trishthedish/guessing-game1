@@ -1,3 +1,4 @@
+<script src="game.js" type="text/javascript"></script>
 <script>
   var score = 0;
   var userName = prompt("What is your name?");
