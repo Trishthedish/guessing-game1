@@ -1,9 +1,71 @@
+#womenCanCode {
+  width: 260px;
+  height: 200px;
+  align: block;
+}
+
+#nerdTrish {
+  width: 260px;
+  height: 200px;
+  align: block;
+}
+
+#seaArt {
+  width: 360px;
+  height: 200px;
+  align: block;
+}
+
+#art {
+  align: inline;
+}
+
 h1 {
   style: bold;
   alignment: center;
+  font-family: impact;
+  alignment: center;
+  font-size: 40px;
+
+}
+p {
+  font-size: 3s0px;
 }
 
 body {
   background: lightblue;
   alignment: center;
+}
+
+
+#qOneEl {
+  background-color: #fbe3c0;
+  color: #f50505;
+  font-family: monospace;
+  font-size: 30px;
+/*Above is red*/
+}
+
+#qTwoEl {
+  background-color: #fbe3c0;
+  color: #f86e0d;
+  font-family: monospace;
+  font-size: 30px;
+/*Above is orange*/
+}
+
+#qThreeEl {
+  background-color: #fbe3c0;
+  color: #e7b40d;
+  font-family: monospace;
+  font-size: 30px;
+/*Above is golden yellow*/
+}
+
+#qFourEl {
+  background-color: #fbe3c0;
+  color: #0d39e7;
+  font-family: monospace;
+  font-size: 30px;
+/*Above is blue*/
 }
