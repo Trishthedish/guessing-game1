@@ -11,6 +11,8 @@ var userName = prompt("What is your name?");
 alert("Greetings " + userName + "!");
 console.log("Look Ma I'm coding!")
 
+function  questions() {
+
  var qOne = prompt("Are you a dog person? Yes or No");
      if (qOne.toLowerCase() == "yes" || qOne.toLowerCase() == "y") {
        score += 1;
@@ -46,6 +48,11 @@ var qThree = prompt("Can you name all the Women that have ever been on the Supre
      qFourEl.textContent = "Obviously, you are just pressing buttons. Fail";
 
    }
+ }
+
+
+ questions();
+ 
    //
   //  var qFive = prompt("I'm going to list 3 truths and lie. Tis your job to guess which one of these is a lie.")
    //
